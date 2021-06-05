@@ -7,7 +7,6 @@ import { ArweaveProvider } from './providers/ArweaveProvider';
 import store from './store';
 
 
-
 ReactDOM.render(
   <Provider store={store}>
     <ArweaveProvider>
