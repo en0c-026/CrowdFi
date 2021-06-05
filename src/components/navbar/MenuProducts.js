@@ -5,15 +5,15 @@ import React from 'react'
 export const MenuProducts = () => {
     return (
         <Menu
+        plain
             gap='xxsmall'
-            size='small'
             dropProps={{
                 align: { top: 'bottom', left: 'left' },
                 elevation: 'none',
                 margin: { top: 'xsmall'},
                 round: true
             }}
-            label="Products"
+            label={<Text size='medium'>Products</Text>}
             items={[
                 { aling: 'center', justify: 'center', label: <Text size='small'>buyMeaCoffee</Text>, href: '/buyMeaCoffee' },
                 { aling: 'center', justify: 'center', label: <Text size='small'>lendFi</Text>, href: '/lendFi' },
