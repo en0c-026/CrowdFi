@@ -8,8 +8,8 @@ export const mainSlice = createSlice({
     reducers: {
         setAddress: (state, action) => {
             state.address = action.payload
-        },    
-    },
+        },
+    }
 })
 
 export const { setAddress } = mainSlice.actions
