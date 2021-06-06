@@ -8,7 +8,7 @@ export const CardProduct = (props) => {
             <CardHeader alignSelf='center' pad={{ horizontal: 'small', top: 'small' }}>
                 <Anchor href={props.to} label={<Text weight='bold' size='medium'>{props.header}</Text>} />
             </CardHeader>
-            <CardBody pad={{ horizontal: 'small' }}>
+            <CardBody pad={{ vertical: 'xsmall', horizontal: 'small' }}>
                 <Paragraph size='small' textAlign='center'>
                     {props.body}
                 </Paragraph>
